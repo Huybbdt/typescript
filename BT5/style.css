@@ -1,0 +1,154 @@
+*,
+ul {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f2f2f2;
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+.app {
+  max-width: 1300px;
+  margin: 50px auto;
+  padding: 10px;
+}
+.row {
+  --bs-gutter-x: unset;
+}
+.container-pagination {
+  border: 1px solid #eaf0f7;
+  border-radius: 6px 0 0 6px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 30px -10px rgb(0 0 0 / 20%);
+}
+.pagination-list {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.pagination-item {
+  border-radius: 6px;
+  height: 40px;
+  width: 40px;
+  background-color: #f6f9fc;
+  margin: 0 0 40px 40px;
+  line-height: 40px;
+}
+.pagination-link {
+  color: #67758d;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+}
+.pagination-link:hover {
+  color: #67758d;
+}
+.container-right {
+  margin-left: -1px;
+  padding: 50px 40px;
+  border: 1px solid #eaf0f7;
+  border-radius: 0 6px 0 0;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px -10px rgb(0 0 0 / 20%);
+}
+.input-answer {
+  background-color: #ffffff;
+  border-color: #c4cfdd;
+  border-width: 2px;
+  width: 24px;
+  height: 24px;
+  margin: 10px;
+}
+.input-answer + label {
+  font-size: 20px;
+}
+.input-answer:checked + label {
+  color: #fad20b;
+  font-weight: bold;
+}
+.radio-checked {
+  border-color: #fad20b;
+}
+p,
+label {
+  color: #67758d;
+}
+p {
+  margin: 0;
+}
+
+h4 {
+  font-weight: bold;
+}
+.title-time {
+  padding: 20px;
+  border-bottom: 1px solid #c4cfdd;
+}
+.note {
+  padding: 20px;
+  height: 100px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #c4cfdd;
+}
+.note-dot {
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+
+.slacking {
+  background-color: #dee5ef;
+}
+.not-seen {
+  background-color: #f6f9fc;
+  border: 1px solid #dee5ef;
+}
+.btn-submit-answer,
+.watched {
+  background-color: #fad20b;
+}
+.btn-submit-test {
+  margin: 20px 30%;
+  background-color: #3ff375;
+}
+.note-item {
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+.pagination-move {
+  margin: 20px 0;
+}
+.answer-title {
+  margin-left: 50px;
+}
+.answer-list {
+  padding-left: 70px;
+}
+.correct {
+  background-color: #00c48c;
+}
+.wrong > a,
+.correct > a {
+  color: #fff;
+}
+.wrong {
+  background-color: #fa4112;
+}
+
+@media only screen and (max-width: 768px){
+  .note {
+    display: block;
+  }
+  .btn-submit-test {
+    margin: 20px 20%;
+  }
+}
